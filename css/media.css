@@ -1,0 +1,497 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+        border: none;
+    }
+
+    .navbar-nav{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navBarBtn{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .bannerText h1 {
+        font-size: 85px;
+    }
+
+    .sideText{
+        opacity: 0;
+        visibility: 0;
+    }
+
+
+    .cUnder1 img {
+        width: 321px;
+        height: 380px;
+    }
+
+    .cUnder2 img {
+        height: 380px;
+        width: 340px;
+    }
+
+    #destination {
+        margin-bottom: 60px;
+    }
+
+    #bestseller {
+        margin-bottom: 0;
+    }
+
+    .tourText h2 {
+        margin-bottom: 20px;
+    }
+
+    .tourText a {
+        margin-top: 60px;
+    }
+
+    #partner {
+        margin: 60px 0;
+    }
+
+    #support {
+        margin-bottom: 0;
+    }
+
+    .privacy h5 {
+        display: inline-block;
+    }
+
+    .privacy {
+        text-align: center !important;
+    }
+
+    footer{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .catItem,.trendingItem,.aImg1,.aImg2,.bPart,.cUpper,.bSellerItem,.cheekall,.sImga,.sImgB1,.supportItem {
+        margin-bottom: 60px;
+    }
+
+    .trendingText,.destinationHeader,.bestSellerHeader,.cheekall,.tourHeader,.tourText,.tourTextB,.subdcribeText,.qLink,.contactx,.getintouch,.privacy{
+        text-align: center;
+    }
+
+    #tour {
+        margin-bottom: 60px;
+    }
+
+    .tourbg {
+        padding: 30px 60px;
+    }
+
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+        border: none;
+    }
+
+    .navbar-nav{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navBarBtn{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .bannerText h1 {
+        font-size: 69px;
+    }
+
+    .bannerin,.searchbar  {
+        flex-direction: column;
+    }
+
+    .left,.trendingText,.destinationHeader,.bestSellerHeader,.cheekall,.tourHeader,.tourText,.subdcribeText,.privacy{
+        text-align: center;
+    }
+
+    .bSellerItem {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .sideText{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .searchItem{
+        margin: 10px 0;
+    }
+
+    .catItem,.trendingItem,.cheekall {
+        margin-bottom: 40px;
+    }
+
+    .aImg1, .aImg2, .bPart, .cUpper, .cUnder1, .cUnder2,.supportItem  {
+        margin-bottom: 40px;
+    }
+
+    #destination {
+        margin-bottom: 0;
+    }
+
+    #bestseller {
+        margin-bottom: 0;
+    }
+
+    .tourText h2 {
+        line-height: normal;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .tourText a {
+        margin-top: 40px;
+    }
+
+    .tourText {
+        margin: 0;
+    }
+
+    #tour {
+        margin-bottom: 60px;
+    }
+
+    .tourbg {
+        padding: 30px 0;
+        margin-bottom: 60px;
+    }
+
+    .tourbg h1 {
+        font-size: 25px;
+    }
+
+    .sImga,.sImgB1 {
+        margin-bottom: 40px;
+    }
+
+    .subdcribeText input {
+        padding: 30px 0px 30px 50px;
+    }
+
+    #partner {
+        margin: 20px 0;
+    }
+
+    #support {
+        margin-bottom: 60px;
+        position: relative;
+    }
+
+    .qLink{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contactx p {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 36px;
+    }
+
+    .footerMenu {
+        margin-bottom: 40px;
+    }
+
+    .talks input {
+        padding: 30px 0 30px 70px;
+    }
+
+    .privacy{
+        text-align: center !important;
+    }
+
+    footer{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .bgoverly {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 100px 0;
+    }
+ }
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+        border: none;
+    }
+
+    .navbar-nav{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navBarBtn{
+        background: rgb(255, 0, 76);
+        border-radius: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .bannerText h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .bannerin{
+       flex-direction: column;
+    }
+
+    .sideText{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .searchbar {
+        flex-direction: column;
+    }
+
+    .searchItem{
+        margin: 10px 0;
+    }
+
+    .bgoverly {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+
+    .catItem {
+        margin-bottom: 20px;
+    }
+
+    .trendingText {
+        margin-bottom: 30px;
+    }
+
+    .trendingItem {
+        margin-bottom: 30px;
+    }
+
+    .destinationHeader {
+        margin-bottom: 30px;
+    }
+
+    .aImg1, .aImg2, .bPart, .cUpper, .cUnder1, .cUnder2 {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .cUnder {
+        flex-direction: column;
+    } 
+
+    #destination {
+        margin-bottom: 30px;
+    }
+
+    .bestSellerHeader {
+        margin-bottom: 30px;
+    }
+
+    .cheekall{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .bSellerItem{
+        margin-top: 30px;
+    }
+
+    .tourHeader{
+        text-align: center;
+    }
+
+    .tourText h2 {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .tourText {
+        text-align: center;
+
+    }
+    .tourText a {
+
+        margin-top: 30px;
+    }
+
+    .tourTextB {
+        margin-top: 30px;
+    }
+
+    #tour {
+        margin-bottom: 60px;
+    }
+
+    .tourbg h1 {
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 500;
+        letter-spacing: -0.38px;
+        margin-bottom: 10px;
+    }
+
+    .tourbg {
+        padding: 30px 0;
+        margin-bottom: 50px;
+    }
+
+    .sImga{
+        margin-bottom: 30px;
+    }
+
+    .sImgB1 {
+        margin-bottom: 30px;
+    }
+
+    .subdcribeText{
+        text-align: center;
+    }
+
+    .subdcribeText h1 {
+        font-size: 36px;
+    }
+
+    .subdcribeText p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    
+    .subdcribeText input {
+        border: 1px solid black;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 0;
+        margin: 0;
+    }
+
+    .subdcribeText button {
+        border: none;
+        padding: 0;
+        color: #fff;
+        background: rgb(255, 0, 55);
+        margin-left: -20px;
+    }
+
+    form a{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #partner {
+        margin: 30px 0;
+    }
+
+    .supportHeader h2 {
+        font-size: 30px;
+    }
+
+    .supportHeader p {
+        font-size: 17px;
+    }
+
+    .supportHeader {
+        margin-bottom: 45px;
+    }
+
+    .supportItem {
+        background: rgb(255, 0, 55);
+        padding: 72px 0 56px 0;
+        border-radius: 12px;
+    }
+
+    .supportItem2{
+        margin-top: 30px;
+        background: #002147 ;
+    }
+
+    #support {
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .qLink,.contactx,.getintouch,.ouroffice,.talks{
+        text-align: center;
+    }
+
+    .contactx a {
+        font-size: 16px;
+    }
+
+    .qLink p {
+        margin-left: 0;
+    }
+
+    .footerMenu {
+        margin-bottom: 30px;
+    }
+
+    .talks form i{
+        visibility: hidden;
+    }
+
+    .talks input {
+        padding: 0;
+        border: 1px solid black;
+        padding: 5;
+    }
+
+    .talks button {
+        padding: 0;
+        /* margin-left: -20px; */
+    }
+
+    .privacy{
+        text-align: center !important;
+    }
+
+    .privacy h5, .privacy a{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    footer{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+ }
